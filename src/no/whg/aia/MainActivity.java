@@ -1,5 +1,8 @@
 package no.whg.aia;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,11 +11,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.navdrawer.SimpleSideDrawer;
 public class MainActivity extends FragmentActivity {
@@ -58,8 +63,14 @@ public class MainActivity extends FragmentActivity {
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
 		
+
+        
+
+        
+        
 		mNav = new SimpleSideDrawer(this);
         mNav.setLeftBehindContentView(R.layout.activity_behind_left);
+        
 
 	}
 
@@ -74,6 +85,32 @@ public class MainActivity extends FragmentActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		if (item.getItemId() == R.id.episodes) {
 			mNav.toggleLeftDrawer();
+	        // set up menu¨
+	        List<TextView> s1_tv = new ArrayList<TextView>(8);
+	        Log.w("no.whg.aia", ":::::::: ARRAY SIZE: " + s1_tv.size());
+	        
+	        for (int i = 0; i < 8; i++) {
+	        	String tv_id = "s1_e" + (i+1);
+	        	
+	        	final int j = i+1;
+	        	int tv_idInt = getResources().getIdentifier(tv_id, "id", "no.whg.aia");
+	        	Log.w("no.whg.aia", "::::::: tv_idInt: " + tv_idInt);
+	        	Log.w("no.whg.aia", "::::::: R id: " + R.id.s1_e1);
+	        	s1_tv.add(i, (TextView) findViewById(tv_idInt));
+	        	
+	        	s1_tv.get(i).setClickable(true);
+	        	
+	        	s1_tv.get(i).setOnClickListener(new View.OnClickListener() {
+	        		@Override
+	        		public void onClick(View v) {
+	        			Intent intent = new Intent(getApplicationContext(), EpisodeActivity.class);
+	        			intent.putExtra("episode", "s1e"+j);
+	        			startActivity(intent);
+	        		}
+	        		
+	        		
+	        	});
+	        }
 		} else if (item.getItemId() == android.R.id.home){
 			Intent intent = new Intent(this, MainActivity.class);
 			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

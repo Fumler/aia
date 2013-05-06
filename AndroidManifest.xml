@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="no.whg.aia.EpisodeActivity"
+            android:label="@string/title_activity_episode"
+            android:parentActivityName="no.whg.aia.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.whg.aia.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
