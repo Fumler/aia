@@ -44,22 +44,24 @@
         <item name="android:layout_marginRight">10dp</item>
         <item name="android:layout_marginBottom">5dp</item>
         <item name="android:padding">5dp</item>
+        
     </style>
     
     <style name="style_bigWhiteText">
         <item name="android:textAllCaps">	true</item>
         <item name="android:textColor">		#fff</item>
-        <item name="android:textSize">		25dp</item>
+        <item name="android:textSize">		20dp</item>
         <item name="android:padding">		5dp</item>
+        <item name="android:gravity">center</item>
     </style>
     
     <style name="leftBehindMenuScroll">
-        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:background">@drawable/leftbg</item>
     </style>
     <style name="rightBehindMenuScroll">
-        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:background">@drawable/rightbg</item>
     </style>
@@ -67,6 +69,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/menu_blue</item>
         <item name="android:padding">8dp</item>
     </style>
     <style name="behindMenuItemTitle">
@@ -74,17 +77,23 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">8dp</item>
         <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:textSize">22sp</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#449def</item>
     </style>
     <style name="behindMenuItemLabel">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">8dp</item>
         <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">22sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+    
+    <style name="Divider">
+    	<item name="android:layout_width">match_parent</item>
+    	<item name="android:layout_height">1dp</item>
+    	<item name="android:background">?android:attr/listDivider</item>
+	</style>
     
     
 

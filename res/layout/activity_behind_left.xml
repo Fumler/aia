@@ -3,18 +3,123 @@
 
     <LinearLayout style="@style/behindMenuScrollContent"
         android:paddingTop="25dp" >
-        <TextView
+        <TextView 
             style="@style/behindMenuItemTitle"
-            android:text="Left" />
+            android:id="@+id/s1_title"
+            android:text="@string/title_section2" />
         <TextView
             style="@style/behindMenuItemLabel"
-            android:text="Item0" />
+            android:id="@+id/s1_e1"
+            android:text="@string/tv_s1e1" />
+        <View style="@style/Divider"/>
         <TextView
             style="@style/behindMenuItemLabel"
-            android:text="Item1" />
-        <Button
-            android:id="@+id/behind_btn"
+            android:id="@+id/s1_e2"
+            android:text="@string/tv_s1e2" />
+        <View style="@style/Divider"/>
+        <TextView
             style="@style/behindMenuItemLabel"
-            android:text="BUTTON" />
+            android:id="@+id/s1_e3"
+            android:text="@string/tv_s1e3" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s1_e4"
+            android:text="@string/tv_s1e4" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s1_e5"
+            android:text="@string/tv_s1e5" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s1_e6"
+            android:text="@string/tv_s1e6" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s1_e7"
+            android:text="@string/tv_s1e7" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s1_e8"
+            android:text="@string/tv_s1e8" />
+        <View style="@style/Divider"/>
+        <TextView 
+            style="@style/behindMenuItemTitle"
+            android:text="        " />
+        <TextView 
+            style="@style/behindMenuItemTitle"
+            android:id="@+id/s2_title"
+            android:text="@string/title_section3" />
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e1"
+            android:text="@string/tv_s2e1" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e2"
+            android:text="@string/tv_s2e2" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e3"
+            android:text="@string/tv_s2e3" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e4"
+            android:text="@string/tv_s2e4" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e5"
+            android:text="@string/tv_s2e5" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e6"
+            android:text="@string/tv_s2e6" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e7"
+            android:text="@string/tv_s2e7" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s2_e8"
+            android:text="@string/tv_s2e8" />
+        <View style="@style/Divider"/>
+        <TextView 
+            style="@style/behindMenuItemTitle"
+            android:text="        " />
+        <TextView 
+            style="@style/behindMenuItemTitle"
+            android:id="@+id/s3_title"
+            android:text="@string/title_section4" />
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s3_e1"
+            android:text="@string/tv_s3e1" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s3_e2"
+            android:text="@string/tv_s3e2" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s3_e3"
+            android:text="@string/tv_s3e3" />
+        <View style="@style/Divider"/>
+        <TextView
+            style="@style/behindMenuItemLabel"
+            android:id="@+id/s3_e4"
+            android:text="@string/tv_s3e4" />
+        <View style="@style/Divider"/>
     </LinearLayout>
 </ScrollView>

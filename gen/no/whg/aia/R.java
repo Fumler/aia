@@ -16,6 +16,7 @@ public final class R {
         public static final int dark_blue=0x7f040005;
         public static final int dark_red=0x7f040000;
         public static final int gray=0x7f040004;
+        public static final int menu_blue=0x7f040007;
         public static final int red=0x7f040001;
         public static final int white=0x7f040002;
     }
@@ -30,32 +31,106 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int leftbg=0x7f020001;
-        public static final int main_gradient=0x7f020002;
-        public static final int rightbg=0x7f020003;
+        public static final int ic_action_example=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int leftbg=0x7f020002;
+        public static final int main_gradient=0x7f020003;
+        public static final int menu_gradient=0x7f020004;
+        public static final int rightbg=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
-        public static final int behind_btn=0x7f090000;
-        public static final int pager=0x7f090001;
-        public static final int pager_title_strip=0x7f090002;
-        public static final int section_label=0x7f090003;
+        public static final int episodes=0x7f090022;
+        public static final int pager=0x7f090017;
+        public static final int pager_title_strip=0x7f090018;
+        public static final int s1_e1=0x7f090001;
+        public static final int s1_e2=0x7f090002;
+        public static final int s1_e3=0x7f090003;
+        public static final int s1_e4=0x7f090004;
+        public static final int s1_e5=0x7f090005;
+        public static final int s1_e6=0x7f090006;
+        public static final int s1_e7=0x7f090007;
+        public static final int s1_e8=0x7f090008;
+        public static final int s1_home=0x7f09001a;
+        public static final int s1_title=0x7f090000;
+        public static final int s2_e1=0x7f09000a;
+        public static final int s2_e2=0x7f09000b;
+        public static final int s2_e3=0x7f09000c;
+        public static final int s2_e4=0x7f09000d;
+        public static final int s2_e5=0x7f09000e;
+        public static final int s2_e6=0x7f09000f;
+        public static final int s2_e7=0x7f090010;
+        public static final int s2_e8=0x7f090011;
+        public static final int s2_home=0x7f09001b;
+        public static final int s2_title=0x7f090009;
+        public static final int s3_e1=0x7f090013;
+        public static final int s3_e2=0x7f090014;
+        public static final int s3_e3=0x7f090015;
+        public static final int s3_e4=0x7f090016;
+        public static final int s3_home=0x7f09001c;
+        public static final int s3_title=0x7f090012;
+        public static final int section_label=0x7f090019;
+        public static final int tab1=0x7f09001d;
+        public static final int tab2=0x7f09001f;
+        public static final int tab3=0x7f090020;
+        public static final int tab4=0x7f090021;
+        public static final int welcomeMsg=0x7f09001e;
     }
     public static final class layout {
         public static final int activity_behind_left=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int fragment_main_dummy=0x7f030002;
+        public static final int s1_menu=0x7f030003;
+        public static final int s2_menu=0x7f030004;
+        public static final int s3_menu=0x7f030005;
+        public static final int tab1=0x7f030006;
+        public static final int tab2=0x7f030007;
+        public static final int tab3=0x7f030008;
+        public static final int tab4=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
+        public static final int alt_title_section1=0x7f060003;
+        public static final int alt_title_section2=0x7f060005;
+        public static final int alt_title_section3=0x7f060007;
+        public static final int alt_title_section4=0x7f060009;
+        /**  titles 
+         */
         public static final int app_name=0x7f060000;
         public static final int title_section1=0x7f060002;
-        public static final int title_section2=0x7f060003;
-        public static final int title_section3=0x7f060004;
+        public static final int title_section2=0x7f060004;
+        public static final int title_section3=0x7f060006;
+        public static final int title_section4=0x7f060008;
+        /**  tab menus 
+         */
+        public static final int tv_home=0x7f06000a;
+        /**  episode names 
+         */
+        public static final int tv_s1e1=0x7f06000b;
+        public static final int tv_s1e2=0x7f06000c;
+        public static final int tv_s1e3=0x7f06000d;
+        public static final int tv_s1e4=0x7f06000e;
+        public static final int tv_s1e5=0x7f06000f;
+        public static final int tv_s1e6=0x7f060010;
+        public static final int tv_s1e7=0x7f060011;
+        public static final int tv_s1e8=0x7f060012;
+        public static final int tv_s2e1=0x7f060013;
+        public static final int tv_s2e2=0x7f060014;
+        public static final int tv_s2e3=0x7f060015;
+        public static final int tv_s2e4=0x7f060016;
+        public static final int tv_s2e5=0x7f060017;
+        public static final int tv_s2e6=0x7f060018;
+        public static final int tv_s2e7=0x7f060019;
+        public static final int tv_s2e8=0x7f06001a;
+        public static final int tv_s3e1=0x7f06001b;
+        public static final int tv_s3e2=0x7f06001c;
+        public static final int tv_s3e3=0x7f06001d;
+        public static final int tv_s3e4=0x7f06001e;
+        /**  Tab content 
+         */
+        public static final int welcome=0x7f06001f;
     }
     public static final class style {
         /** 
@@ -78,7 +153,8 @@ public final class R {
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f07000b;
+        public static final int AppTheme=0x7f07000c;
+        public static final int Divider=0x7f07000b;
         public static final int behindMenuItemLabel=0x7f07000a;
         public static final int behindMenuItemTitle=0x7f070009;
         public static final int behindMenuScrollContent=0x7f070008;

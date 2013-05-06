@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">aia</string>
+    <!-- titles -->
+    <string name="app_name">An Idiot Abroad</string>
     <string name="action_settings">Settings</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Welcome</string>
+    <string name="alt_title_section1">Welcome</string>
+    <string name="title_section2">Series 1</string>
+    <string name="alt_title_section2">Seven wonders of the world</string>
+    <string name="title_section3">Series 2</string>
+    <string name="alt_title_section3">The Bucket List</string>
+    <string name="title_section4">Series 3</string>
+    <string name="alt_title_section4">The Short Way Round</string>
+    
+    <!-- tab menus -->
+    <string name="tv_home"><u><b>HOME</b></u></string>
+    
+    <!-- episode names -->
+    <string name="tv_s1e1">  China</string>
+    <string name="tv_s1e2">  India</string>
+    <string name="tv_s1e3">  Jordan</string>
+    <string name="tv_s1e4">  Mexico</string>
+    <string name="tv_s1e5">  Egypt</string>
+    <string name="tv_s1e6">  Brazil</string>
+    <string name="tv_s1e7">  Peru</string>
+    <string name="tv_s1e8">  Karl Comes Home</string>
+    
+    <string name="tv_s2e1">  Desert Island</string>
+    <string name="tv_s2e2">  Trans-Siberian Express</string>
+    <string name="tv_s2e3">  Swim with Dolphins</string>
+    <string name="tv_s2e4">  Whale Watching</string>
+    <string name="tv_s2e5">  Meet a Gorilla</string>
+    <string name="tv_s2e6">  Route 66</string>
+    <string name="tv_s2e7">  Climb Mount Fuji</string>
+    <string name="tv_s2e8">  Karl Comes Home</string>
+    
+    <string name="tv_s3e1">  Venice</string>
+    <string name="tv_s3e2">  India</string>
+    <string name="tv_s3e3">  China</string>
+    <string name="tv_s3e4">  A Commentary</string>
+    
+    <!-- Tab content -->
+    <string name="welcome">Welcome blablabl blab balbll abllabl blablalb blalbal blalbala</string>
 
 </resources>

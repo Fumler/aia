@@ -1,21 +1,19 @@
 package no.whg.aia;
 
-import java.util.Locale;
-
+import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
 import com.navdrawer.SimpleSideDrawer;
 public class MainActivity extends FragmentActivity {
 
@@ -35,11 +33,21 @@ public class MainActivity extends FragmentActivity {
 	ViewPager mViewPager;
 	
 	private SimpleSideDrawer mNav;
+	/*
+	@Override
+	public void onAttachedToWindow() {
+	    super.onAttachedToWindow();
+	    Window window = getWindow();
+	    window.setFormat(PixelFormat.RGBA_8888);
+	}*/
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		ActionBar actionBar = getActionBar();
+		actionBar.setDisplayHomeAsUpEnabled(false);
 
 		// Create the adapter that will return a fragment for each of the three
 		// primary sections of the app.
@@ -59,12 +67,17 @@ public class MainActivity extends FragmentActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
+		
 		return true;
 	}
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
-		if (item.getItemId() == R.id.action_settings) {
+		if (item.getItemId() == R.id.episodes) {
 			mNav.toggleLeftDrawer();
+		} else if (item.getItemId() == android.R.id.home){
+			Intent intent = new Intent(this, MainActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
 		}
 		
 		return true;
@@ -87,7 +100,7 @@ public class MainActivity extends FragmentActivity {
 			// below) with the page number as its lone argument.
 			Fragment fragment = new DummySectionFragment();
 			Bundle args = new Bundle();
-			args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
+			args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position);
 			fragment.setArguments(args);
 			return fragment;
 		}
@@ -95,19 +108,20 @@ public class MainActivity extends FragmentActivity {
 		@Override
 		public int getCount() {
 			// Show 3 total pages.
-			return 3;
+			return 4;
 		}
 
 		@Override
 		public CharSequence getPageTitle(int position) {
-			Locale l = Locale.getDefault();
 			switch (position) {
 			case 0:
-				return getString(R.string.title_section1).toUpperCase(l);
+				return getString(R.string.title_section1).toUpperCase();
 			case 1:
-				return getString(R.string.title_section2).toUpperCase(l);
+				return getString(R.string.title_section2).toUpperCase();
 			case 2:
-				return getString(R.string.title_section3).toUpperCase(l);
+				return getString(R.string.title_section3).toUpperCase();
+			case 3:
+				return getString(R.string.title_section4).toUpperCase();
 			}
 			return null;
 		}
@@ -130,13 +144,47 @@ public class MainActivity extends FragmentActivity {
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main_dummy,
-					container, false);
-			TextView dummyTextView = (TextView) rootView
-					.findViewById(R.id.section_label);
-			dummyTextView.setText(Integer.toString(getArguments().getInt(
-					ARG_SECTION_NUMBER)));
-			return rootView;
+        	super.onCreate(savedInstanceState);
+        	
+        	Bundle args = getArguments();
+        	int position = args.getInt(ARG_SECTION_NUMBER);
+        	int tabLayout = 1;
+
+        	switch(position) {
+        	case 0:
+        		tabLayout = R.layout.tab1;
+        		break;
+        	case 1:
+        		tabLayout = R.layout.tab2;
+        		break;
+        	case 2:
+        		tabLayout = R.layout.tab3;
+        		break;
+        	case 3:
+        		tabLayout = R.layout.tab4;
+        		break;
+        		
+        	}
+        	
+        	View view = inflater.inflate(tabLayout, container, false);
+
+            return view;
+		}
+		
+		@Override
+		public void onActivityCreated(Bundle savedInstanceState) {
+			super.onActivityCreated(savedInstanceState);
+			
+			Bundle args = getArguments();
+			int position = args.getInt(ARG_SECTION_NUMBER);
+			
+			switch(position) {
+			case 0: /* init here */ break;
+			case 1: /* init here */ break;
+			case 2: /* init here */ break;
+			case 3: /* init here */ break;
+			default: /* init here */ break;
+			}
 		}
 	}
 
