@@ -56,8 +56,8 @@
 	
     <!-- facts -->
 	<!-- China -->
-	<string name="tv_s1e1f1">  The official name of China is the "People's Republic of China".</string>
-	<string name="tv_s1e1f2">  China is the world's most populous country.</string>
+	<string name="tv_s1e1f1">  The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China in part to protect the Chinese Empire or its prototypical states against intrusions by various nomadic groups or military incursions by various warlike peoples or forces. Several walls were being built as early as the 7th century BC these, later joined together and made bigger, stronger, and unified are now collectively referred to as the Great Wall.</string>
+	<string name="tv_s1e1f2">  China is the world\'s most populous country.</string>
 	<string name="tv_s1e1f3">  China is a single party state governed by the Communist Party.</string>
 	<string name="tv_s1e1f4">  China is the world 2nd largest country after Russia.</string>
 	<string name="tv_s1e1f5">  Construction on the Great Wall started during the 7th century BCE</string>
@@ -68,7 +68,7 @@
 	<string name="tv_s1e1f10">  There is not language called Chinese. The two most widely spoken languages are called Mandarin and Cantonese.</string>
 	<!-- India -->
 	<string name="tv_s1e2f1">  The capital of Inidia is New Delhi.</string>
-	<string name="tv_s1e2f2">  Two of the world's four largest religions originated in India.</string>
+	<string name="tv_s1e2f2">  Two of the world\'s four largest religions originated in India.</string>
 	<string name="tv_s1e2f3">  One of the most popular sports in India is cricket.</string>
 	<string name="tv_s1e2f4">  The Taj Mahal is in fact a mausoleum.</string>
 	<string name="tv_s1e2f5">  The Kumbh Mela festival is the largest peaceful gathering in the world. In 2013 over 100 million people participated.</string>
@@ -107,7 +107,7 @@
 	<!-- Brazil -->
 	<string name="tv_s1e6f1">  Brazil was claimed by Portugal in April 1500 although it took another 32 years for the colonization to start.</string>
 	<string name="tv_s1e6f2">  In 1808 Brazil was elevated from a colony to an official part of United Kingdom of Portugal, Brazil and the Algarves.</string>
-	<string name="tv_s1e6f3">  Prince Pedro declared the country's independence from Portugal on 7 September 1822.</string>
+	<string name="tv_s1e6f3">  Prince Pedro declared the country\'s independence from Portugal on 7 September 1822.</string>
 	<string name="tv_s1e6f4">  The monarchy was overthrown on 15 November 1889.</string>
 	<string name="tv_s1e6f5">  The world’s best and most delicious coffee is produced in Brazil.</string>
 	<string name="tv_s1e6f6">  Brazil has the biggest rain forest of the world, the Amazon forest.</string>

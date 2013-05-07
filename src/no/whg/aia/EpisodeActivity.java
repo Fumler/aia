@@ -54,6 +54,7 @@ public class EpisodeActivity extends Activity {
 		
         List<TextView> tv_ep = new ArrayList<TextView>(5);
         List<ImageView> iv_ep = new ArrayList<ImageView>(5);
+        ImageView iv = (ImageView) findViewById(R.id.wonder);
         
         for (int i = 0; i < 5; i++) {
         	String tv_id = "tv_ep" + (i+1);
@@ -72,48 +73,212 @@ public class EpisodeActivity extends Activity {
 		
 		if (episode.contains("s1e1")) {
 			setTitle(getResources().getString(R.string.tv_s1e1));
-			LayoutInflater inflater = LayoutInflater.from(this);
-			TextView tv = (TextView) inflater.inflate(R.id.tv_styler, ll, false);
-			tv.setText("herp i derp i derp");
-			//ll.addView(tv);
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e1));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e1f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e2")) {
 			setTitle(getResources().getString(R.string.tv_s1e2));
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e2));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e2f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e3")) {
 			setTitle(getResources().getString(R.string.tv_s1e3));
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e3));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e3f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e4")) {
 			setTitle(getResources().getString(R.string.tv_s1e4));
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e4));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e4f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e5")) {
 			setTitle(getResources().getString(R.string.tv_s1e5));
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e5));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e5f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e6")) {
 			setTitle(getResources().getString(R.string.tv_s1e6));
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e6));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e6f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e7")) {
 			setTitle(getResources().getString(R.string.tv_s1e7));
+			iv.setImageDrawable(getResources().getDrawable(R.drawable.iv_s1e7));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e7f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s1e8")) {
 			setTitle(getResources().getString(R.string.tv_s1e8));
+
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s1e8f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e1")) {
 			setTitle(getResources().getString(R.string.tv_s2e1));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e1f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e2")) {
 			setTitle(getResources().getString(R.string.tv_s2e2));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e2f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e3")) {
 			setTitle(getResources().getString(R.string.tv_s2e3));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e3f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e4")) {
 			setTitle(getResources().getString(R.string.tv_s2e4));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e4f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e5")) {
 			setTitle(getResources().getString(R.string.tv_s2e5));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e5f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e6")) {
 			setTitle(getResources().getString(R.string.tv_s2e6));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e6f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e7")) {
 			setTitle(getResources().getString(R.string.tv_s2e7));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e7f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s2e8")) {
 			setTitle(getResources().getString(R.string.tv_s2e8));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s2e8f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s3e1")) {
 			setTitle(getResources().getString(R.string.tv_s3e1));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s3e1f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s3e2")) {
 			setTitle(getResources().getString(R.string.tv_s3e2));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s3e2f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s3e3")) {
 			setTitle(getResources().getString(R.string.tv_s3e3));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s3e3f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 		} else if (episode.contains("s3e4")) {
 			setTitle(getResources().getString(R.string.tv_s3e4));
+			for(int i = 0; i < 5; i++) {
+				String tId = "tv_s3e4f" + (i+1);
+				
+				int tIdInt = getResources().getIdentifier(tId, "string", "no.whg.aia");
+				
+				tv_ep.get(i).setText(tIdInt);
+				tv_ep.get(i).setVisibility(View.VISIBLE);
+			}
 
 		} else {
 			TextView tv = new TextView(getApplicationContext());
