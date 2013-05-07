@@ -56,8 +56,8 @@
 	
     <!-- facts -->
 	<!-- China -->
-	<string name="tv_s1e1f1">  The official name of China is the "People's Republic of China".</string>
-	<string name="tv_s1e1f2">  China is the world's most populous country.</string>
+	<string name="tv_s1e1f1">  The official name of China is the "People\'s Republic of China".</string>
+	<string name="tv_s1e1f2">  China is the world\'s most populous country.</string>
 	<string name="tv_s1e1f3">  China is a single party state governed by the Communist Party.</string>
 	<string name="tv_s1e1f4">  China is the world 2nd largest country after Russia.</string>
 	<string name="tv_s1e1f5">  Construction on the Great Wall started during the 7th century BCE</string>
@@ -68,7 +68,7 @@
 	<string name="tv_s1e1f10">  There is not language called Chinese. The two most widely spoken languages are called Mandarin and Cantonese.</string>
 	<!-- India -->
 	<string name="tv_s1e2f1">  The capital of Inidia is New Delhi.</string>
-	<string name="tv_s1e2f2">  Two of the world's four largest religions originated in India.</string>
+	<string name="tv_s1e2f2">  Two of the world\'s four largest religions originated in India.</string>
 	<string name="tv_s1e2f3">  One of the most popular sports in India is cricket.</string>
 	<string name="tv_s1e2f4">  The Taj Mahal is in fact a mausoleum.</string>
 	<string name="tv_s1e2f5">  The Kumbh Mela festival is the largest peaceful gathering in the world. In 2013 over 100 million people participated.</string>
@@ -107,7 +107,7 @@
 	<!-- Brazil -->
 	<string name="tv_s1e6f1">  Brazil was claimed by Portugal in April 1500 although it took another 32 years for the colonization to start.</string>
 	<string name="tv_s1e6f2">  In 1808 Brazil was elevated from a colony to an official part of United Kingdom of Portugal, Brazil and the Algarves.</string>
-	<string name="tv_s1e6f3">  Prince Pedro declared the country's independence from Portugal on 7 September 1822.</string>
+	<string name="tv_s1e6f3">  Prince Pedro declared the country\'s independence from Portugal on 7 September 1822.</string>
 	<string name="tv_s1e6f4">  The monarchy was overthrown on 15 November 1889.</string>
 	<string name="tv_s1e6f5">  The world’s best and most delicious coffee is produced in Brazil.</string>
 	<string name="tv_s1e6f6">  Brazil has the biggest rain forest of the world, the Amazon forest.</string>
@@ -123,149 +123,66 @@
 	<string name="tv_s1e7f5">  Peru declared independence from Spain in 1821.</string>
 	<string name="tv_s1e7f6">  The Nazca Lines were discovered in 1939.</string>
 	<string name="tv_s1e7f7">  Contrary to popular belief the Nazca Lines can be seen from surround hills. Not only the air</string>
-	
-	<string name="tv_s1e8f1">  </string>
-	<string name="tv_s1e8f2">  </string>
-	<string name="tv_s1e8f3">  </string>
-	<string name="tv_s1e8f4">  </string>
-	<string name="tv_s1e8f5">  </string>
-	<string name="tv_s1e8f6">  </string>
-	<string name="tv_s1e8f7">  </string>
-	<string name="tv_s1e8f8">  </string>
-	<string name="tv_s1e8f9">  </string>
-	<string name="tv_s1e8f10">  </string>
-	
-	<string name="tv_s2e1f1">  </string>
-	<string name="tv_s2e1f2">  </string>
-	<string name="tv_s2e1f3">  </string>
-	<string name="tv_s2e1f4">  </string>
-	<string name="tv_s2e1f5">  </string>
-	<string name="tv_s2e1f6">  </string>
-	<string name="tv_s2e1f7">  </string>
-	<string name="tv_s2e1f8">  </string>
-	<string name="tv_s2e1f9">  </string>
-	<string name="tv_s2e1f10">  </string>
-	
-	<string name="tv_s2e2f1">  </string>
-	<string name="tv_s2e2f2">  </string>
-	<string name="tv_s2e2f3">  </string>
-	<string name="tv_s2e2f4">  </string>
-	<string name="tv_s2e2f5">  </string>
-	<string name="tv_s2e2f6">  </string>
-	<string name="tv_s2e2f7">  </string>
-	<string name="tv_s2e2f8">  </string>
-	<string name="tv_s2e2f9">  </string>
-	<string name="tv_s2e2f10">  </string>
-	
-	<string name="tv_s2e3f1">  </string>
-	<string name="tv_s2e3f2">  </string>
-	<string name="tv_s2e3f3">  </string>
-	<string name="tv_s2e3f4">  </string>
-	<string name="tv_s2e3f5">  </string>
-	<string name="tv_s2e3f6">  </string>
-	<string name="tv_s2e3f7">  </string>
-	<string name="tv_s2e3f8">  </string>
-	<string name="tv_s2e3f9">  </string>
-	<string name="tv_s2e3f10">  </string>
-	
-	<string name="tv_s2e4f1">  </string>
-	<string name="tv_s2e4f2">  </string>
-	<string name="tv_s2e4f3">  </string>
-	<string name="tv_s2e4f4">  </string>
-	<string name="tv_s2e4f5">  </string>
-	<string name="tv_s2e4f6">  </string>
-	<string name="tv_s2e4f7">  </string>
-	<string name="tv_s2e4f8">  </string>
-	<string name="tv_s2e4f9">  </string>
-	<string name="tv_s2e4f10">  </string>
+	<!-- Desert Island -->
+	<string name="tv_s2e1f1">  In 1974, Queen Elizabeth II of Great Britain visited Vanuatu and observed the spectacle of land jumping. The British colonial administration wanted the queen to have an interesting tour, and convinced the Anglican villagers of the Melanesian Mission at Point Cross to do so. However, the vines were not elastic enough because it was the wrong season, the middle of the wet season. One diver had both lianas broken, broke his back from falling, and later died in a hospital. Until 2006, when a diver broke his spine after landing badly and subsequently died in hospital, this was the only fatality in memory.</string>
+	<string name="tv_s2e1f2">  The construction of the tower typically takes between two and five weeks of labour. Around twenty to thirty men help construct it.</string>
+	<string name="tv_s2e1f3">  Before land diving the men often bring closure to unsettled business and disputes in case they die.</string>
+	<string name="tv_s2e1f4">  The first modern bungee jumps were made on 1 April 1979 from the 76 m tall Clifton Suspension Bridge in Bristol, by members of the Oxford University Dangerous Sports Club.</string>
+	<string name="tv_s2e1f5">  Polynesians settled New Zealand in 1250–1300 CE and developed a distinctive Māori culture. Europeans first made contact in 1642 CE.</string>
+	<!-- Trans-Siberian Express -->
+	<string name="tv_s2e2f1">  The Trans-Siberian Railway is a network of railways connecting Moscow with the Russian Far East and the Sea of Japan. It is the longest railway line in the world. There are connecting branch lines into Mongolia, China and North Korea.</string>
+	<string name="tv_s2e2f2">  Full-time construction of the Trans-Siberian Railway began in 1891. Similar to the first transcontinental railroad in the USA, Russian engineers started construction at both ends and worked towards the centre.</string>
+	<string name="tv_s2e2f3">  Moscow is the capital city of Russia. According to Forbes 2011, Moscow has the largest community of billionaires in the world.</string>
+	<string name="tv_s2e2f4">  During the French invasion of Russia in 1812, the Muscovites burned the city and evacuated, as Napoleon\’s forces were approaching on 14 September. Napoleon\’s Grande Armée, plagued by hunger, cold and poor supply lines, was forced to retreat and was nearly annihilated by the devastating Russian winter and sporadic attacks by Russian military forces.</string>
+	<string name="tv_s2e2f5">  Moscow is the heart of the Russian performing arts, including ballet and film. There are 93 theaters, 132 cinemas and 24 concert halls in Moscow.</string>
+	<!-- Swim with Dolphins -->
+	<string name="tv_s2e3f1">  The most obvious celebration of Songkran is the throwing of water upon others. Thais roam the streets with containers of water or water guns. The throwing of water originated as a way to pay respect to people, by capturing the water after it had been poured over the Buddhas for cleansing and then using this "blessed" water to give good fortune to elders and family by gently pouring it on the shoulder. Among young people the holiday evolved to include dousing strangers with water to relieve the heat, since April is the hottest month in Thailand. This has further evolved into water fights and splashing water over people riding in vehicles.</string>
+	<string name="tv_s2e3f2">  Muay Thai is a combat sport from the muay martial arts of Thailand that uses stand-up striking along with various clinching techniques. This physical and mental discipline which includes combat on foot is known as "the art of eight weapons" because it is characterized by the combined use of fists, elbows, knees, shins and feet.</string>
+	<string name="tv_s2e3f3">  The great white shark also known as the great white, white pointer, white shark, or white death, can be found in the coastal surface waters of all the major oceans. The great white shark is mainly known for its size, with the largest individuals known to have approached or exceeded 6 m in length.</string>
+	<string name="tv_s2e3f4">  More than any documented attack, Jaws directed by Steven Spielberg provided the great white shark with the image of being a "man eater" in the public mind. While great white sharks have killed humans, they typically do not target them: for example, in the Mediterranean Sea there have been 31 confirmed attacks against humans in the last two centuries.</string>
+	<string name="tv_s2e3f5">  Cage diving is most common at sites where great whites are frequent including the coast of South Africa, the Neptune Islands in South Australia, and Guadalupe Island in Baja California. Cage diving and swimming with sharks is a focus for a booming tourist industry due to its popularity. A common practice is to chum the water with pieces of fish to attract the sharks.</string>
+	<!-- Whale Watching -->
+	<string name="tv_s2e4f1">  Whale watching is the practice of observing whales and dolphins in their natural habitat. Whales are watched most commonly for recreation but the activity can also serve scientific or educational purposes. A 2009 study, prepared for IFAW, estimated that 13 million people went whale watching globally in 2008.</string>
+	<string name="tv_s2e4f2">  Organized whale watching dates back to 1950 when the Cabrillo National Monument in San Diego was declared a public venue for observing Gray Whales and the spectacle attracted 10,000 visitors in its first year.</string>
+	<string name="tv_s2e4f3">  Alaska was purchased from Russia on March 30, 1867, for $7.2 million, $118 million adjusted for inflation at approximately $4.74/km².</string>
+	<string name="tv_s2e4f4">  Roald Amundsen\'s expedition to the south pole planned to use around ninety-seven sled dogs. On his first try, two of his dogs froze to death in the freezing temperatures. He tried a second time and was successful. Amundsen was covering 17 miles a day, with stops every 3 miles to build a cairn to mark the trail.  He had 55 dogs with him, which he culled until he had 14 left when he returned from the pole. On the return trip, a man skied ahead of the dogs and hid meat in the cairns to encourage them to run.</string>
+	<string name="tv_s2e4f5">  Ice roads are frozen, human-made structures on the surface of bays, rivers, lakes, or seas in polar regions. They allow temporary transport to areas with no permanent road access. Ice roads differ from winter roads in that they are built primarily across frozen waterways. Ice roads may be winter substitutes for summer ferry service. Ferry service and an ice crossing may operate yearly at the same time for several weeks.</string>
 	
 	<string name="tv_s2e5f1">  </string>
 	<string name="tv_s2e5f2">  </string>
 	<string name="tv_s2e5f3">  </string>
 	<string name="tv_s2e5f4">  </string>
 	<string name="tv_s2e5f5">  </string>
-	<string name="tv_s2e5f6">  </string>
-	<string name="tv_s2e5f7">  </string>
-	<string name="tv_s2e5f8">  </string>
-	<string name="tv_s2e5f9">  </string>
-	<string name="tv_s2e5f10">  </string>
 	
 	<string name="tv_s2e6f1">  </string>
 	<string name="tv_s2e6f2">  </string>
 	<string name="tv_s2e6f3">  </string>
 	<string name="tv_s2e6f4">  </string>
 	<string name="tv_s2e6f5">  </string>
-	<string name="tv_s2e6f6">  </string>
-	<string name="tv_s2e6f7">  </string>
-	<string name="tv_s2e6f8">  </string>
-	<string name="tv_s2e6f9">  </string>
-	<string name="tv_s2e6f10">  </string>
 		
 	<string name="tv_s2e7f1">  </string>
 	<string name="tv_s2e7f2">  </string>
 	<string name="tv_s2e7f3">  </string>
 	<string name="tv_s2e7f4">  </string>
 	<string name="tv_s2e7f5">  </string>
-	<string name="tv_s2e7f6">  </string>
-	<string name="tv_s2e7f7">  </string>
-	<string name="tv_s2e7f8">  </string>
-	<string name="tv_s2e7f9">  </string>
-	<string name="tv_s2e7f10">  </string>
-	
-	<string name="tv_s2e8f1">  </string>
-	<string name="tv_s2e8f2">  </string>
-	<string name="tv_s2e8f3">  </string>
-	<string name="tv_s2e8f4">  </string>
-	<string name="tv_s2e8f5">  </string>
-	<string name="tv_s2e8f6">  </string>
-	<string name="tv_s2e8f7">  </string>
-	<string name="tv_s2e8f8">  </string>
-	<string name="tv_s2e8f9">  </string>
-	<string name="tv_s2e8f10">  </string>
 	
 	<string name="tv_s3e1f1">  </string>
 	<string name="tv_s3e1f2">  </string>
 	<string name="tv_s3e1f3">  </string>
 	<string name="tv_s3e1f4">  </string>
 	<string name="tv_s3e1f5">  </string>
-	<string name="tv_s3e1f6">  </string>
-	<string name="tv_s3e1f7">  </string>
-	<string name="tv_s3e1f8">  </string>
-	<string name="tv_s3e1f9">  </string>
-	<string name="tv_s3e1f10">  </string>
 	
 	<string name="tv_s3e2f1">  </string>
 	<string name="tv_s3e2f2">  </string>
 	<string name="tv_s3e2f3">  </string>
 	<string name="tv_s3e2f4">  </string>
 	<string name="tv_s3e2f5">  </string>
-	<string name="tv_s3e2f6">  </string>
-	<string name="tv_s3e2f7">  </string>
-	<string name="tv_s3e2f8">  </string>
-	<string name="tv_s3e2f9">  </string>
-	<string name="tv_s3e2f10">  </string>
-	
+
 	<string name="tv_s3e3f1">  </string>
 	<string name="tv_s3e3f2">  </string>
 	<string name="tv_s3e3f3">  </string>
 	<string name="tv_s3e3f4">  </string>
 	<string name="tv_s3e3f5">  </string>
-	<string name="tv_s3e3f6">  </string>
-	<string name="tv_s3e3f7">  </string>
-	<string name="tv_s3e3f8">  </string>
-	<string name="tv_s3e3f9">  </string>
-	<string name="tv_s3e3f10">  </string>
-	
-	<string name="tv_s3e4f1">  </string>
-	<string name="tv_s3e4f2">  </string>
-	<string name="tv_s3e4f3">  </string>
-	<string name="tv_s3e4f4">  </string>
-	<string name="tv_s3e4f5">  </string>
-	<string name="tv_s3e4f6">  </string>
-	<string name="tv_s3e4f7">  </string>
-	<string name="tv_s3e4f8">  </string>
-	<string name="tv_s3e4f9">  </string>
-	<string name="tv_s3e4f10">  </string>
 
     <!-- Tab content -->
     <string name="welcome">Welcome blablabl blab balbll abllabl blablalb blalbal blalbala</string>
