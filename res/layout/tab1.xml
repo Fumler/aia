@@ -3,21 +3,39 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
-	<RelativeLayout
+	<LinearLayout
 	    android:id="@+id/tab1"
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
 	    android:orientation="vertical" >
+	    	<ImageView
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/welcome1"
+      android:layout_marginTop="10dp" />
 	    
 	    <TextView 
 	        android:id="@+id/welcomeMsg"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="@string/welcome"
-	        style="@style/style_whiteBoxRegular"
-	        android:layout_marginTop="10dp"/>
+	        android:text="Welcome! If you have already seen a few episodes of the show you might already know that Karl is a funny guy, he is actually so funny that you might even have missed a lot of the useful and important facts about the places he visits! Or if you have not watched the show yet, you probably want to. Either way, follow me and I'll show you around."
+	        style="@style/style_whiteBoxRegular"/>
+	    	    <TextView 
+	        android:id="@+id/welcomeMsg"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="For the new viewers out there, you might want to swipe to the right first so you can check out some of the funniest quotes from Karl himself, and to check out the previews for the next seasons as well."
+	        style="@style/style_whiteBoxRegular"/>
+	    	    
+	    	    	    	    <TextView 
+	        android:id="@+id/welcomeMsg"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="If you are currently watching the show and want to learn something, click the icon in the top right corner, and you will learn some actual facts abou the places you see Karl visit. Happy viewing!"
+	        style="@style/style_whiteBoxRegular"/>
 
-	</RelativeLayout>
+	</LinearLayout>
 	
 
 </ScrollView>

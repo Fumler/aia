@@ -56,6 +56,29 @@
 	
     <!-- facts -->
 	<!-- China -->
+<<<<<<< HEAD
+	<string name="tv_s1e1f1">  The official name of China is the "People\'s Republic of China".</string>
+	<string name="tv_s1e1f2">  China is the world\'s most populous country.</string>
+	<string name="tv_s1e1f3">  China is a single party state governed by the Communist Party.</string>
+	<string name="tv_s1e1f4">  China is the world 2nd largest country after Russia.</string>
+	<string name="tv_s1e1f5">  Construction on the Great Wall started during the 7th century BCE</string>
+	<string name="tv_s1e1f6">  The Great wall is in fact not visible from the moon.</string>
+	<string name="tv_s1e1f7">  Beijing the capital of China has a population of over 20 million.</string>
+	<string name="tv_s1e1f8">  Beijing hosted the 2008 Summer Olympics.</string>
+	<string name="tv_s1e1f9">  The Forbidden City was the seat of the Chinese emperors for almost 500 years.</string>
+	<string name="tv_s1e1f10">  There is not language called Chinese. The two most widely spoken languages are called Mandarin and Cantonese.</string>
+	<!-- India -->
+	<string name="tv_s1e2f1">  The capital of Inidia is New Delhi.</string>
+	<string name="tv_s1e2f2">  Two of the world\'s four largest religions originated in India.</string>
+	<string name="tv_s1e2f3">  One of the most popular sports in India is cricket.</string>
+	<string name="tv_s1e2f4">  The Taj Mahal is in fact a mausoleum.</string>
+	<string name="tv_s1e2f5">  The Kumbh Mela festival is the largest peaceful gathering in the world. In 2013 over 100 million people participated.</string>
+	<string name="tv_s1e2f6">  India was in colonized by the East India Company in the late 18th and early 19th century.</string>
+	<string name="tv_s1e2f7">  The Indian independence movement was lead by Mahatma Gandhi by employing non-violent civil disobedience.</string>
+	<string name="tv_s1e2f8">  When India achieved their independence is was split into two countries, India and Pakistan. </string>
+	<string name="tv_s1e2f9">  India is in constant disputes with Pakistan over the control of the Kashmir region.</string>
+	<string name="tv_s1e2f10">  India has a thriving film industry, mostly known for their Bollywood films.</string>
+=======
 	<string name="tv_s1e1f1">  The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China in part to protect the Chinese Empire or its prototypical states against intrusions by various nomadic groups or military incursions by various warlike peoples or forces. Several walls were being built as early as the 7th century BC these, later joined together and made bigger, stronger, and unified are now collectively referred to as the Great Wall.</string>
 	<string name="tv_s1e1f2">  Beijing, sometimes romanized as Peking, is the capital of the People's Republic of China and one of the most populous cities in the world. The population as of 2012 was 20,693,000. Beijing is the second largest Chinese city by urban population after Shanghai and is the nation's political, cultural, and educational center. It is home to the headquarters of most of China's largest state-owned companies, and is a major hub for the national highway, expressway, railway, and high-speed rail networks. The Beijing Capital International Airport is the second busiest in the world by passenger traffic. The city's history dates back three millenia. As the last of the Four Great Ancient Capitals of China, Beijing has been the political center of the country for much of the past seven centuries. The city is renowned for its opulent palaces, temples, gardens, tombs, walls and gates, and its art treasures and universities have made it a center of culture and art in China. Few cities in the world have been the political and cultural center of an area as immense for so long.</string>
 	<string name="tv_s1e1f3">  Chinese cuisine includes styles originating from the diverse regions of China, plus styles of Chinese people in other parts of the world. The history of Chinese cuisine in China stretches back for thousands of years and has changed from period to period and in each region according to climate, imperial fashions, and local preferences. Styles and tastes also varied by class, region, and ethnic background. This led to an unparalleled range of ingredients, techniques, dishes and eating styles in what could be called Chinese food, leading Chinese to pride themselves on eating a wide variety of foods while remaining true to the spirit and traditions of Chinese food culture.</string>
@@ -67,6 +90,7 @@
 	<string name="tv_s1e2f3">  Kumbh Mela is a mass Hindu pilgrimage of faith in which Hindus gather to bathe in a sacred river. It is considered to be largest peaceful gathering in the world with over 100 million people visiting during the Maha Kumbh Mela in 2013. It is held every third year at one of the four places by rotation: Haridwar, Allahabad (Prayag), Nashik and Ujjain. Thus the Kumbh Mela is held at each of these four places every twelfth year.</string>
 	<string name="tv_s1e2f4">  The Ganges or Ganga is a 2,525 km long river that rises in the western Himalayas and flows south and east through the Gangetic Plain of North India into Bangladesh, where it empties into the Bay of Bengal. It is the longest river of India and is the second greatest river in the world by water discharge. The Ganges is the most sacred river to Hindus and is also a lifeline to millions of Indians who live along its course and depend on it for their daily needs. It is worshiped as the goddess Ganga in Hinduism. It has also been important historically: many former provincial or imperial capitals (such as Patliputra, Kannauj, Kara, Kashi, Allahabad, Murshidabad, Munger, Baharampur, Kampilya and Kolkata) have been located on its banks.</string>
 	<string name="tv_s1e2f5">  The Ganges was ranked among the five most polluted rivers of the world in 2007. The pollution threatens not only humans, but also more than 140 fish species, 90 amphibian species and the endangered Ganges river dolphin. The Ganga Action Plan, an environmental initiative to clean up the river, has been a major failure thus far, due to corruption and lack of technical expertise, lack of good environmental planning, and lack of support from religious authorities.</string>
+>>>>>>> 2ecc8f3e16b5de1b10586c6e3401b9e7066c4e3b
 	<!-- Jordan -->
 	<string name="tv_s1e3f1">  Petra is a historical and archaeological city in the southern Jordanian governorate of Ma\'an, that is famous for its rock-cut architecture and water conduit system. Another name for Petra is the Rose City due to the color of the stone out of which it is carved. Established possibly as early as 312 BC as the capital city of the Nabataeans, it is a symbol of Jordan, as well as its most-visited tourist attraction. The site remained unknown to the Western world until 1812, when it was introduced by Swiss explorer Johann Ludwig Burckhardt.</string>
 	<string name="tv_s1e3f2">  The Western Wall, Wailing Wall or Kotel is located in the Old City of Jerusalem at the foot of the western side of the Temple Mount. It is a remnant of the ancient wall that surrounded the Jewish Temple's courtyard, and is arguably the most sacred site recognized by the Jewish faith outside of the Temple Mount itself. Just over half the wall, including its 17 courses located below street level, dates from the end of the Second Temple period, commonly believed to have been constructed around 19 BCE by Herod the Great, but recent excavations indicate that the works were not finished during Herod's lifetime. The remaining layers were added from the 7th century onwards.</string>
@@ -109,6 +133,7 @@
 	<string name="tv_s1e7f5">  Peru declared independence from Spain in 1821.</string>
 	<string name="tv_s1e7f6">  The Nazca Lines were discovered in 1939.</string>
 	<string name="tv_s1e7f7">  Contrary to popular belief the Nazca Lines can be seen from surround hills. Not only the air</string>
+<<<<<<< HEAD
 	<!-- Desert Island -->
 	<string name="tv_s2e1f1">  In 1974, Queen Elizabeth II of Great Britain visited Vanuatu and observed the spectacle of land jumping. The British colonial administration wanted the queen to have an interesting tour, and convinced the Anglican villagers of the Melanesian Mission at Point Cross to do so. However, the vines were not elastic enough because it was the wrong season, the middle of the wet season. One diver had both lianas broken, broke his back from falling, and later died in a hospital. Until 2006, when a diver broke his spine after landing badly and subsequently died in hospital, this was the only fatality in memory.</string>
 	<string name="tv_s2e1f2">  The construction of the tower typically takes between two and five weeks of labour. Around twenty to thirty men help construct it.</string>
@@ -133,6 +158,81 @@
 	<string name="tv_s2e4f3">  Alaska was purchased from Russia on March 30, 1867, for $7.2 million, $118 million adjusted for inflation at approximately $4.74/km².</string>
 	<string name="tv_s2e4f4">  Roald Amundsen\'s expedition to the south pole planned to use around ninety-seven sled dogs. On his first try, two of his dogs froze to death in the freezing temperatures. He tried a second time and was successful. Amundsen was covering 17 miles a day, with stops every 3 miles to build a cairn to mark the trail.  He had 55 dogs with him, which he culled until he had 14 left when he returned from the pole. On the return trip, a man skied ahead of the dogs and hid meat in the cairns to encourage them to run.</string>
 	<string name="tv_s2e4f5">  Ice roads are frozen, human-made structures on the surface of bays, rivers, lakes, or seas in polar regions. They allow temporary transport to areas with no permanent road access. Ice roads differ from winter roads in that they are built primarily across frozen waterways. Ice roads may be winter substitutes for summer ferry service. Ferry service and an ice crossing may operate yearly at the same time for several weeks.</string>
+	
+	<string name="tv_s2e5f1">  </string>
+	<string name="tv_s2e5f2">  </string>
+	<string name="tv_s2e5f3">  </string>
+	<string name="tv_s2e5f4">  </string>
+	<string name="tv_s2e5f5">  </string>
+	
+	<string name="tv_s2e6f1">  </string>
+	<string name="tv_s2e6f2">  </string>
+	<string name="tv_s2e6f3">  </string>
+	<string name="tv_s2e6f4">  </string>
+	<string name="tv_s2e6f5">  </string>
+		
+	<string name="tv_s2e7f1">  </string>
+	<string name="tv_s2e7f2">  </string>
+	<string name="tv_s2e7f3">  </string>
+	<string name="tv_s2e7f4">  </string>
+	<string name="tv_s2e7f5">  </string>
+	
+=======
+	
+	<string name="tv_s1e8f1">  </string>
+	<string name="tv_s1e8f2">  </string>
+	<string name="tv_s1e8f3">  </string>
+	<string name="tv_s1e8f4">  </string>
+	<string name="tv_s1e8f5">  </string>
+	<string name="tv_s1e8f6">  </string>
+	<string name="tv_s1e8f7">  </string>
+	<string name="tv_s1e8f8">  </string>
+	<string name="tv_s1e8f9">  </string>
+	<string name="tv_s1e8f10">  </string>
+	
+	<string name="tv_s2e1f1">  </string>
+	<string name="tv_s2e1f2">  </string>
+	<string name="tv_s2e1f3">  </string>
+	<string name="tv_s2e1f4">  </string>
+	<string name="tv_s2e1f5">  </string>
+	<string name="tv_s2e1f6">  </string>
+	<string name="tv_s2e1f7">  </string>
+	<string name="tv_s2e1f8">  </string>
+	<string name="tv_s2e1f9">  </string>
+	<string name="tv_s2e1f10">  </string>
+	
+	<string name="tv_s2e2f1">  </string>
+	<string name="tv_s2e2f2">  </string>
+	<string name="tv_s2e2f3">  </string>
+	<string name="tv_s2e2f4">  </string>
+	<string name="tv_s2e2f5">  </string>
+	<string name="tv_s2e2f6">  </string>
+	<string name="tv_s2e2f7">  </string>
+	<string name="tv_s2e2f8">  </string>
+	<string name="tv_s2e2f9">  </string>
+	<string name="tv_s2e2f10">  </string>
+	
+	<string name="tv_s2e3f1">  </string>
+	<string name="tv_s2e3f2">  </string>
+	<string name="tv_s2e3f3">  </string>
+	<string name="tv_s2e3f4">  </string>
+	<string name="tv_s2e3f5">  </string>
+	<string name="tv_s2e3f6">  </string>
+	<string name="tv_s2e3f7">  </string>
+	<string name="tv_s2e3f8">  </string>
+	<string name="tv_s2e3f9">  </string>
+	<string name="tv_s2e3f10">  </string>
+	
+	<string name="tv_s2e4f1">  </string>
+	<string name="tv_s2e4f2">  </string>
+	<string name="tv_s2e4f3">  </string>
+	<string name="tv_s2e4f4">  </string>
+	<string name="tv_s2e4f5">  </string>
+	<string name="tv_s2e4f6">  </string>
+	<string name="tv_s2e4f7">  </string>
+	<string name="tv_s2e4f8">  </string>
+	<string name="tv_s2e4f9">  </string>
+	<string name="tv_s2e4f10">  </string>
 	<!-- Meet a Gorilla -->
 	<string name="tv_s2e5f1">  The mountain gorilla is highly social, and lives in relatively stable, cohesive groups held together by long-term bonds between adult males and females. Aggression is rare in stable groups, but when two mountain gorilla groups meet, the two silverbacks can sometimes engage in a fight to the death, using their canines to cause deep, gaping injuries.</string>
 	<string name="tv_s2e5f2">  Game viewing is the most popular tourist activity in Uganda. Wild animals like lions, buffaloes, giraffes, antelopes, elephants are common in Uganda\'s ten national parks. Uganda is one of only three countries where it is possible to visit the endangered mountain gorillas. The others are Rwanda and the Democratic Republic of the Congo. Mountain gorillas are Uganda\'s prime tourist attraction.</string>
@@ -152,6 +252,7 @@
 	<string name="tv_s2e7f4">  Takabisha is a steel roller coaster located at the Fuji-Q Highland theme park in Fujiyoshida, Yamanashi, Japan. It is famous for having a drop angle of 121° – the steepest coaster in the world. The Japanese name Takabisha translates to "high-handed" or "domineering" in English. The name is a pun, in that the three kanji in the name literally mean "high fly car".</string>
 	<string name="tv_s2e7f5">  Tokyo, the capital of Japan has an internationally acclaimed cuisine. In November 2007, Michelin released their guide for fine dining in Tokyo, awarding 191 stars in total, or about twice as many as Tokyo's nearest competitor, Paris. Eight establishments were awarded the maximum of three stars (Paris has 10), 25 received two stars, and 117 earned one star. Of the eight top-rated restaurants, three offer traditional Japanese fine dining, two are sushi houses and three serve French cuisine.</string>
 
+>>>>>>> 2ecc8f3e16b5de1b10586c6e3401b9e7066c4e3b
 	<string name="tv_s3e1f1">  </string>
 	<string name="tv_s3e1f2">  </string>
 	<string name="tv_s3e1f3">  </string>
@@ -163,14 +264,26 @@
 	<string name="tv_s3e2f3">  </string>
 	<string name="tv_s3e2f4">  </string>
 	<string name="tv_s3e2f5">  </string>
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 2ecc8f3e16b5de1b10586c6e3401b9e7066c4e3b
 	<string name="tv_s3e3f1">  </string>
 	<string name="tv_s3e3f2">  </string>
 	<string name="tv_s3e3f3">  </string>
 	<string name="tv_s3e3f4">  </string>
 	<string name="tv_s3e3f5">  </string>
 
+<<<<<<< HEAD
+=======
+	<string name="tv_s3e4f1">  </string>
+	<string name="tv_s3e4f2">  </string>
+	<string name="tv_s3e4f3">  </string>
+	<string name="tv_s3e4f4">  </string>
+	<string name="tv_s3e4f5">  </string>
 	
+>>>>>>> 2ecc8f3e16b5de1b10586c6e3401b9e7066c4e3b
     <!-- Tab content -->
     <string name="welcome">Welcome blablabl blab balbll abllabl blablalb blalbal blalbala</string>
     <string name="title_activity_episode">Episodes</string>
