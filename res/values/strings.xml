@@ -53,6 +53,219 @@
     <string name="tv_s3e2">  India</string>
     <string name="tv_s3e3">  China</string>
     <string name="tv_s3e4">  A Commentary</string>
+	
+    <!-- facts -->
+	<!-- China -->
+	<string name="tv_s1e1f1">  The official name of China is the "People's Republic of China".</string>
+	<string name="tv_s1e1f2">  China is the world's most populous country.</string>
+	<string name="tv_s1e1f3">  China is a single party state governed by the Communist Party.</string>
+	<string name="tv_s1e1f4">  China is the world 2nd largest country after Russia.</string>
+	<string name="tv_s1e1f5">  Construction on the Great Wall started during the 7th century BCE</string>
+	<string name="tv_s1e1f6">  The Great wall is in fact not visible from the moon.</string>
+	<string name="tv_s1e1f7">  Beijing the capital of China has a population of over 20 million.</string>
+	<string name="tv_s1e1f8">  Beijing hosted the 2008 Summer Olympics.</string>
+	<string name="tv_s1e1f9">  The Forbidden City was the seat of the Chinese emperors for almost 500 years.</string>
+	<string name="tv_s1e1f10">  There is not language called Chinese. The two most widely spoken languages are called Mandarin and Cantonese.</string>
+	<!-- India -->
+	<string name="tv_s1e2f1">  The capital of Inidia is New Delhi.</string>
+	<string name="tv_s1e2f2">  Two of the world's four largest religions originated in India.</string>
+	<string name="tv_s1e2f3">  One of the most popular sports in India is cricket.</string>
+	<string name="tv_s1e2f4">  The Taj Mahal is in fact a mausoleum.</string>
+	<string name="tv_s1e2f5">  The Kumbh Mela festival is the largest peaceful gathering in the world. In 2013 over 100 million people participated.</string>
+	<string name="tv_s1e2f6">  India was in colonized by the East India Company in the late 18th and early 19th century.</string>
+	<string name="tv_s1e2f7">  The Indian independence movement was lead by Mahatma Gandhi by employing non-violent civil disobedience.</string>
+	<string name="tv_s1e2f8">  When India achieved their independence is was split into two countries, India and Pakistan. </string>
+	<string name="tv_s1e2f9">  India is in constant disputes with Pakistan over the control of the Kashmir region.</string>
+	<string name="tv_s1e2f10">  India has a thriving film industry, mostly known for their Bollywood films.</string>
+	<!-- Jordan -->
+	<string name="tv_s1e3f1">  Jordan was created after the first world war and gained independence after the second world war.</string>
+	<string name="tv_s1e3f2">  Jordan is a constitutional monarchy, King Abdullah II is the head of state.</string>
+	<string name="tv_s1e3f3">  Petra is an ancient historical city carved into rock in southern Jordan. It is one of the new seven wonders of the world.</string>
+	<string name="tv_s1e3f4">  Petra is also known as the Rose City because of the color of the rock it is carved from.</string>
+	<string name="tv_s1e3f5">  The Dead Sea lies between Jordan and Israel. It is the lowest point of dry land on earth at 423m below sea level.</string>
+	<string name="tv_s1e3f6">  In ancient times Jordan was part of the Persian, and later Mecedonian empire.</string>
+	<!-- Mexico -->
+	<string name="tv_s1e4f1">  Mexico is the cradle of 2 of the greatest pre-European american civilizations; the Maya, and the Aztec.</string>
+	<string name="tv_s1e4f2">  The conquest of the Aztecs by the Spanish started in 1519 when Hernán Cortés arrived in Veracruz with 500 conquistadores.</string>
+	<string name="tv_s1e4f3">  One of the main reasons the Spanish was so effective in conquering the Aztecs was the introduction of smallpox to the American continent.</string>
+	<string name="tv_s1e4f4">  Mexico gained independence in 1821.</string>
+	<string name="tv_s1e4f5">  Texas declared independence from Mexico in 1824.</string>
+	<string name="tv_s1e4f6">  Slavery was abolished in Mexico in 1829.</string>
+	<string name="tv_s1e4f7">  After the Mexican-American war Mexico was forced to give up over half of its land, including the rest of Texas, California and New Mexico.</string>
+	<string name="tv_s1e4f8">  Chocolate is originally from Mexico.</string>
+	<!-- Egypt -->
+	<string name="tv_s1e5f1">  The egyptian civilization started to form when the Sahara began to dry out forcing people to migrate to the Nile.</string>
+	<string name="tv_s1e5f2">  Egypt was unified in 3150 BCE by King Menes.</string>
+	<string name="tv_s1e5f3">  The Giza Pyramids were created during the Old Kingdom era between 2700-2200 BCE.</string>
+	<string name="tv_s1e5f4">  The pyramids were most likely build by paid workers. Not slaves.</string>
+	<string name="tv_s1e5f5">  The first time egypt was conquered was around 1650 BCE after 1500 years of native Egyptian rule.</string>
+	<string name="tv_s1e5f6">  Egypt created the first religion with only one god.</string>
+	<string name="tv_s1e5f7">  The last native pharaoh King Nectanebo was killed in 343 BCE.</string>
+	<string name="tv_s1e5f8">  The time between the building of the great pyramids and Cleopatra is longer than the time between Cleopatra and the present day.</string>
+	<string name="tv_s1e5f9">  Egypt went through a revolution in early 2011 as part of the Arab Spring.</string>
+	<string name="tv_s1e5f10">  Cairo, the capital of Egypt is the largest city in the Arab world and in Africa.</string>
+	<!-- Brazil -->
+	<string name="tv_s1e6f1">  Brazil was claimed by Portugal in April 1500 although it took another 32 years for the colonization to start.</string>
+	<string name="tv_s1e6f2">  In 1808 Brazil was elevated from a colony to an official part of United Kingdom of Portugal, Brazil and the Algarves.</string>
+	<string name="tv_s1e6f3">  Prince Pedro declared the country's independence from Portugal on 7 September 1822.</string>
+	<string name="tv_s1e6f4">  The monarchy was overthrown on 15 November 1889.</string>
+	<string name="tv_s1e6f5">  The world’s best and most delicious coffee is produced in Brazil.</string>
+	<string name="tv_s1e6f6">  Brazil has the biggest rain forest of the world, the Amazon forest.</string>
+	<string name="tv_s1e6f7">  Brazil has one of the New 7 Wonders of the World, the Christ Redeemer statue, located in Rio De Janeiro</string>
+	<string name="tv_s1e6f8">  The Carnival of Brazil is an annual festival held during the Friday to the Tuesday before Ash Wednesday.</string>
+	<string name="tv_s1e6f9">  The huge parades with the large floats that takes place during the carnival are competitions between samba schools</string>
+	<string name="tv_s1e6f10">  The most popular sport in Brazil is football. The Brazilian national football team is ranked among the best in the world.</string>
+	<!-- Peru -->
+	<string name="tv_s1e7f1">  Peru is the home of the Inca Empire. The largest pre-colombian state in America.</string>
+	<string name="tv_s1e7f2">  One of the most important remaining Inca sites is Machu Picchu. It was built as an estate for the Inca emperor Pachacuti and is one of the New 7 Wonders of the World.</string>
+	<string name="tv_s1e7f3">  The Peruvian Amazon forest is populated by several native tribes, some of which used to be cannibals.</string>
+	<string name="tv_s1e7f4">  In December 1532, a party of conquistadors led by Francisco Pizarro defeated and captured Inca emperor Atahualpa.</string>
+	<string name="tv_s1e7f5">  Peru declared independence from Spain in 1821.</string>
+	<string name="tv_s1e7f6">  The Nazca Lines were discovered in 1939.</string>
+	<string name="tv_s1e7f7">  Contrary to popular belief the Nazca Lines can be seen from surround hills. Not only the air</string>
+	
+	<string name="tv_s1e8f1">  </string>
+	<string name="tv_s1e8f2">  </string>
+	<string name="tv_s1e8f3">  </string>
+	<string name="tv_s1e8f4">  </string>
+	<string name="tv_s1e8f5">  </string>
+	<string name="tv_s1e8f6">  </string>
+	<string name="tv_s1e8f7">  </string>
+	<string name="tv_s1e8f8">  </string>
+	<string name="tv_s1e8f9">  </string>
+	<string name="tv_s1e8f10">  </string>
+	
+	<string name="tv_s2e1f1">  </string>
+	<string name="tv_s2e1f2">  </string>
+	<string name="tv_s2e1f3">  </string>
+	<string name="tv_s2e1f4">  </string>
+	<string name="tv_s2e1f5">  </string>
+	<string name="tv_s2e1f6">  </string>
+	<string name="tv_s2e1f7">  </string>
+	<string name="tv_s2e1f8">  </string>
+	<string name="tv_s2e1f9">  </string>
+	<string name="tv_s2e1f10">  </string>
+	
+	<string name="tv_s2e2f1">  </string>
+	<string name="tv_s2e2f2">  </string>
+	<string name="tv_s2e2f3">  </string>
+	<string name="tv_s2e2f4">  </string>
+	<string name="tv_s2e2f5">  </string>
+	<string name="tv_s2e2f6">  </string>
+	<string name="tv_s2e2f7">  </string>
+	<string name="tv_s2e2f8">  </string>
+	<string name="tv_s2e2f9">  </string>
+	<string name="tv_s2e2f10">  </string>
+	
+	<string name="tv_s2e3f1">  </string>
+	<string name="tv_s2e3f2">  </string>
+	<string name="tv_s2e3f3">  </string>
+	<string name="tv_s2e3f4">  </string>
+	<string name="tv_s2e3f5">  </string>
+	<string name="tv_s2e3f6">  </string>
+	<string name="tv_s2e3f7">  </string>
+	<string name="tv_s2e3f8">  </string>
+	<string name="tv_s2e3f9">  </string>
+	<string name="tv_s2e3f10">  </string>
+	
+	<string name="tv_s2e4f1">  </string>
+	<string name="tv_s2e4f2">  </string>
+	<string name="tv_s2e4f3">  </string>
+	<string name="tv_s2e4f4">  </string>
+	<string name="tv_s2e4f5">  </string>
+	<string name="tv_s2e4f6">  </string>
+	<string name="tv_s2e4f7">  </string>
+	<string name="tv_s2e4f8">  </string>
+	<string name="tv_s2e4f9">  </string>
+	<string name="tv_s2e4f10">  </string>
+	
+	<string name="tv_s2e5f1">  </string>
+	<string name="tv_s2e5f2">  </string>
+	<string name="tv_s2e5f3">  </string>
+	<string name="tv_s2e5f4">  </string>
+	<string name="tv_s2e5f5">  </string>
+	<string name="tv_s2e5f6">  </string>
+	<string name="tv_s2e5f7">  </string>
+	<string name="tv_s2e5f8">  </string>
+	<string name="tv_s2e5f9">  </string>
+	<string name="tv_s2e5f10">  </string>
+	
+	<string name="tv_s2e6f1">  </string>
+	<string name="tv_s2e6f2">  </string>
+	<string name="tv_s2e6f3">  </string>
+	<string name="tv_s2e6f4">  </string>
+	<string name="tv_s2e6f5">  </string>
+	<string name="tv_s2e6f6">  </string>
+	<string name="tv_s2e6f7">  </string>
+	<string name="tv_s2e6f8">  </string>
+	<string name="tv_s2e6f9">  </string>
+	<string name="tv_s2e6f10">  </string>
+		
+	<string name="tv_s2e7f1">  </string>
+	<string name="tv_s2e7f2">  </string>
+	<string name="tv_s2e7f3">  </string>
+	<string name="tv_s2e7f4">  </string>
+	<string name="tv_s2e7f5">  </string>
+	<string name="tv_s2e7f6">  </string>
+	<string name="tv_s2e7f7">  </string>
+	<string name="tv_s2e7f8">  </string>
+	<string name="tv_s2e7f9">  </string>
+	<string name="tv_s2e7f10">  </string>
+	
+	<string name="tv_s2e8f1">  </string>
+	<string name="tv_s2e8f2">  </string>
+	<string name="tv_s2e8f3">  </string>
+	<string name="tv_s2e8f4">  </string>
+	<string name="tv_s2e8f5">  </string>
+	<string name="tv_s2e8f6">  </string>
+	<string name="tv_s2e8f7">  </string>
+	<string name="tv_s2e8f8">  </string>
+	<string name="tv_s2e8f9">  </string>
+	<string name="tv_s2e8f10">  </string>
+	
+	<string name="tv_s3e1f1">  </string>
+	<string name="tv_s3e1f2">  </string>
+	<string name="tv_s3e1f3">  </string>
+	<string name="tv_s3e1f4">  </string>
+	<string name="tv_s3e1f5">  </string>
+	<string name="tv_s3e1f6">  </string>
+	<string name="tv_s3e1f7">  </string>
+	<string name="tv_s3e1f8">  </string>
+	<string name="tv_s3e1f9">  </string>
+	<string name="tv_s3e1f10">  </string>
+	
+	<string name="tv_s3e2f1">  </string>
+	<string name="tv_s3e2f2">  </string>
+	<string name="tv_s3e2f3">  </string>
+	<string name="tv_s3e2f4">  </string>
+	<string name="tv_s3e2f5">  </string>
+	<string name="tv_s3e2f6">  </string>
+	<string name="tv_s3e2f7">  </string>
+	<string name="tv_s3e2f8">  </string>
+	<string name="tv_s3e2f9">  </string>
+	<string name="tv_s3e2f10">  </string>
+	
+	<string name="tv_s3e3f1">  </string>
+	<string name="tv_s3e3f2">  </string>
+	<string name="tv_s3e3f3">  </string>
+	<string name="tv_s3e3f4">  </string>
+	<string name="tv_s3e3f5">  </string>
+	<string name="tv_s3e3f6">  </string>
+	<string name="tv_s3e3f7">  </string>
+	<string name="tv_s3e3f8">  </string>
+	<string name="tv_s3e3f9">  </string>
+	<string name="tv_s3e3f10">  </string>
+	
+	<string name="tv_s3e4f1">  </string>
+	<string name="tv_s3e4f2">  </string>
+	<string name="tv_s3e4f3">  </string>
+	<string name="tv_s3e4f4">  </string>
+	<string name="tv_s3e4f5">  </string>
+	<string name="tv_s3e4f6">  </string>
+	<string name="tv_s3e4f7">  </string>
+	<string name="tv_s3e4f8">  </string>
+	<string name="tv_s3e4f9">  </string>
+	<string name="tv_s3e4f10">  </string>
 
     <!-- Tab content -->
     <string name="welcome">Welcome blablabl blab balbll abllabl blablalb blalbal blalbala</string>
