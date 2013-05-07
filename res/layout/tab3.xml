@@ -3,16 +3,60 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
-	<RelativeLayout
+<LinearLayout
 	    android:id="@+id/tab3"
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
 	    android:orientation="vertical" >
-	    <TextView 
-	    	style="@style/style_bigWhiteText"
-	    	android:text="@string/alt_title_section3"
-	    	android:layout_width="fill_parent"
-	    	android:layout_height="wrap_content"
-	    	/>
-	</RelativeLayout>
+	<TextView style="@style/style_whiteBoxRegular"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/tab3_welcome"/>
+	<TextView android:text="PREVIEW"
+	    style="@style/style_bigWhiteText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	<ImageView
+	  android:id="@+id/s2_preview"
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/s2_preview" />
+	<TextView android:text="KARL QUOTES"
+	    style="@style/style_bigWhiteText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<ImageView
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/iv_s2q1" />
+	
+	<TextView 
+	    android:text="@string/tv_s2q1"
+	    style="@style/style_whiteBoxRegular"
+	    />
+	<ImageView
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/tv_s2q2" />
+	
+	<TextView 
+	    android:text="@string/tv_s2q2"
+	    style="@style/style_whiteBoxRegular"
+	    />
+	<ImageView
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/iv_s2q3" />
+	
+	<TextView 
+	    android:text="@string/tv_s2q3"
+	    style="@style/style_whiteBoxRegular"
+	    />
+
+
+	</LinearLayout>
 </ScrollView>

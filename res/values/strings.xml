@@ -12,10 +12,26 @@
     <string name="alt_title_section3">The Bucket List</string>
     <string name="title_section4">Series 3</string>
     <string name="alt_title_section4">The Short Way Round</string>
-
+    <string name="tab2_welcome">This season we follow Karl trough the seven wonders of the world! Watch him point out how the great wall of china isn\'t so great, amongst other things.</string>
+	<string name="tab3_welcome">This season we follow Karl as Ricky and Stephen send him fullfill other peoples bucket list. Karl does not really like to do things.</string>
+    <string name="tab4_welcome">This season we follow Karl trough the footsteps of Marco Polo, and this time he is invited by the friendly little peron, Warrick! Watch as Karl looks forward to seeing Warrick live in the same bad conditions he did last time. (Except this time Ricky and Stephen gives Warrick luxury living.)</string>
+	
     <!-- tab menus -->
     <string name="tv_home"><u><b>HOME</b></u></string>
-
+    
+    <!-- quotes -->
+    <string name="tv_s1q1">I thought I\'d seen the Great Wall of China. Which, being honest with you, it\'s not the Great Wall; it\'s an alright wall. It\'s the Alright Wall of China.</string>
+	<string name="tv_s1q2">You know, you can see it for miles - goes on for miles, over the hills and everything. But, so does the M6. Do you know what I mean? You can see that for miles. And you go great. And that does a job. You can drive on that.</string>
+    <string name="tv_s1q3">Camels have been around for years. The ships of the desert. That\'s what they\'re known as. We\'ve ended up with Titanic.</string>
+	<string name="tv_s1q4">It\'s like a game of Jenga that\'s got out of hand.</string>
+    
+	<string name="tv_s2q1">I say happiness is like having a cake. If you have a cake every day, you get sick of that cake. If you\'re happy all the time, you get sick of being happy. That\'s a good saying actually. Happiness is like a cake - have too much of it, you get sick of it.</string>
+    <string name="tv_s2q2">[Which super power would you have, Karl?]I\'d be bullshit man. There\'s so many meetings going on where, you know people are bullshitting. I\'d just like to walk in. I wouldn\'t need a special costume, just dressed like this and I would fly in and I\'d go, "Bullshit. He\'s talking bullshit." And they\'d go, "Oh. He\'s Bullshit Man." And I\'d go, "Yea. It is Bullshit Man. You\'re talking bullshit." And eventually, people would stop talking bullshit. Anything that\'s going on in the world: A bloke selling a car that\'s knackered, and he\'s going to say it\'s a great one, and it\'s [whoosh] Bullshit!</string>
+    <string name="tv_s2q3">Sharks are always dangerous. Jaws, Shark Attack One, Two, and Three. Three films there. There was a chance for him to get friendly. Didn\'t. An angry shark for three films.</string>
+    
+    <string name="tv_s3q1">You should see the crowds here when Warwick was walking down the street. It\’s the same thing. People just like seeing little oddities in life.</string>
+    <string name="tv_s3q2">I will kick a panda in the bollocks if I have to.</string>
+    <string name="tv_s3q3">It looks like we\'ve been doing the London marathon and got lost.</string>
     <!-- episode names -->
     <string name="tv_s1e1">  China</string>
     <string name="tv_s1e2">  India</string>

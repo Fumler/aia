@@ -9,6 +9,10 @@ package no.whg.aia;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int styleRef=0x7f010000;
     }
     public static final class color {
         public static final int black=0x7f040003;
@@ -33,17 +37,35 @@ public final class R {
     public static final class drawable {
         public static final int ic_action_example=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int leftbg=0x7f020002;
-        public static final int main_gradient=0x7f020003;
-        public static final int menu_gradient=0x7f020004;
-        public static final int rightbg=0x7f020005;
+        public static final int iv_s1q1_2=0x7f020002;
+        public static final int iv_s1q3=0x7f020003;
+        public static final int iv_s1q4=0x7f020004;
+        public static final int iv_s2q1=0x7f020005;
+        public static final int iv_s2q3=0x7f020006;
+        public static final int iv_s3q1=0x7f020007;
+        public static final int iv_s3q2=0x7f020008;
+        public static final int iv_s3q3=0x7f020009;
+        public static final int leftbg=0x7f02000a;
+        public static final int main_gradient=0x7f02000b;
+        public static final int menu_gradient=0x7f02000c;
+        public static final int rightbg=0x7f02000d;
+        public static final int s1_preview=0x7f02000e;
+        public static final int s2_preview=0x7f02000f;
+        public static final int s3_preview=0x7f020010;
+        public static final int tv_s2q2=0x7f020011;
+        public static final int welcome=0x7f020012;
     }
     public static final class id {
-        public static final int action_settings=0x7f090023;
-        public static final int episodeTv=0x7f090017;
-        public static final int episodes=0x7f090024;
-        public static final int pager=0x7f090018;
-        public static final int pager_title_strip=0x7f090019;
+        public static final int action_settings=0x7f090035;
+        public static final int episodes=0x7f090036;
+        public static final int iv_ep1=0x7f090019;
+        public static final int iv_ep2=0x7f09001b;
+        public static final int iv_ep3=0x7f09001d;
+        public static final int iv_ep4=0x7f09001f;
+        public static final int iv_ep5=0x7f090021;
+        public static final int ll=0x7f090017;
+        public static final int pager=0x7f090022;
+        public static final int pager_title_strip=0x7f090023;
         public static final int s1_e1=0x7f090001;
         public static final int s1_e2=0x7f090002;
         public static final int s1_e3=0x7f090003;
@@ -52,7 +74,8 @@ public final class R {
         public static final int s1_e6=0x7f090006;
         public static final int s1_e7=0x7f090007;
         public static final int s1_e8=0x7f090008;
-        public static final int s1_home=0x7f09001b;
+        public static final int s1_home=0x7f090025;
+        public static final int s1_preview=0x7f09002b;
         public static final int s1_title=0x7f090000;
         public static final int s2_e1=0x7f09000a;
         public static final int s2_e2=0x7f09000b;
@@ -62,20 +85,32 @@ public final class R {
         public static final int s2_e6=0x7f09000f;
         public static final int s2_e7=0x7f090010;
         public static final int s2_e8=0x7f090011;
-        public static final int s2_home=0x7f09001c;
+        public static final int s2_home=0x7f090026;
+        public static final int s2_preview=0x7f090030;
         public static final int s2_title=0x7f090009;
         public static final int s3_e1=0x7f090013;
         public static final int s3_e2=0x7f090014;
         public static final int s3_e3=0x7f090015;
         public static final int s3_e4=0x7f090016;
-        public static final int s3_home=0x7f09001d;
+        public static final int s3_home=0x7f090027;
+        public static final int s3_preview=0x7f090032;
         public static final int s3_title=0x7f090012;
-        public static final int section_label=0x7f09001a;
-        public static final int tab1=0x7f09001e;
-        public static final int tab2=0x7f090020;
-        public static final int tab3=0x7f090021;
-        public static final int tab4=0x7f090022;
-        public static final int welcomeMsg=0x7f09001f;
+        public static final int section_label=0x7f090024;
+        public static final int tab1=0x7f090028;
+        public static final int tab2=0x7f09002a;
+        public static final int tab2_iv1=0x7f09002c;
+        public static final int tab2_tv1=0x7f09002d;
+        public static final int tab2_tv2=0x7f09002e;
+        public static final int tab3=0x7f09002f;
+        public static final int tab4=0x7f090031;
+        public static final int tab4_iv1=0x7f090033;
+        public static final int tv_ep1=0x7f090018;
+        public static final int tv_ep2=0x7f09001a;
+        public static final int tv_ep3=0x7f09001c;
+        public static final int tv_ep4=0x7f09001e;
+        public static final int tv_ep5=0x7f090020;
+        public static final int tv_styler=0x7f090034;
+        public static final int welcomeMsg=0x7f090029;
     }
     public static final class layout {
         public static final int activity_behind_left=0x7f030000;
@@ -89,6 +124,7 @@ public final class R {
         public static final int tab2=0x7f030008;
         public static final int tab3=0x7f030009;
         public static final int tab4=0x7f03000a;
+        public static final int whitebox=0x7f03000b;
     }
     public static final class menu {
         public static final int episode=0x7f080000;
@@ -103,40 +139,55 @@ public final class R {
         /**  titles 
          */
         public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f060021;
-        public static final int title_activity_episode=0x7f060020;
+        public static final int hello_world=0x7f06002e;
+        public static final int tab2_welcome=0x7f06000a;
+        public static final int tab3_welcome=0x7f06000b;
+        public static final int tab4_welcome=0x7f06000c;
+        public static final int title_activity_episode=0x7f06002d;
         public static final int title_section1=0x7f060002;
         public static final int title_section2=0x7f060004;
         public static final int title_section3=0x7f060006;
         public static final int title_section4=0x7f060008;
         /**  tab menus 
          */
-        public static final int tv_home=0x7f06000a;
+        public static final int tv_home=0x7f06000d;
         /**  episode names 
          */
-        public static final int tv_s1e1=0x7f06000b;
-        public static final int tv_s1e2=0x7f06000c;
-        public static final int tv_s1e3=0x7f06000d;
-        public static final int tv_s1e4=0x7f06000e;
-        public static final int tv_s1e5=0x7f06000f;
-        public static final int tv_s1e6=0x7f060010;
-        public static final int tv_s1e7=0x7f060011;
-        public static final int tv_s1e8=0x7f060012;
-        public static final int tv_s2e1=0x7f060013;
-        public static final int tv_s2e2=0x7f060014;
-        public static final int tv_s2e3=0x7f060015;
-        public static final int tv_s2e4=0x7f060016;
-        public static final int tv_s2e5=0x7f060017;
-        public static final int tv_s2e6=0x7f060018;
-        public static final int tv_s2e7=0x7f060019;
-        public static final int tv_s2e8=0x7f06001a;
-        public static final int tv_s3e1=0x7f06001b;
-        public static final int tv_s3e2=0x7f06001c;
-        public static final int tv_s3e3=0x7f06001d;
-        public static final int tv_s3e4=0x7f06001e;
+        public static final int tv_s1e1=0x7f060018;
+        public static final int tv_s1e2=0x7f060019;
+        public static final int tv_s1e3=0x7f06001a;
+        public static final int tv_s1e4=0x7f06001b;
+        public static final int tv_s1e5=0x7f06001c;
+        public static final int tv_s1e6=0x7f06001d;
+        public static final int tv_s1e7=0x7f06001e;
+        public static final int tv_s1e8=0x7f06001f;
+        /**  quotes 
+         */
+        public static final int tv_s1q1=0x7f06000e;
+        public static final int tv_s1q2=0x7f06000f;
+        public static final int tv_s1q3=0x7f060010;
+        public static final int tv_s1q4=0x7f060011;
+        public static final int tv_s2e1=0x7f060020;
+        public static final int tv_s2e2=0x7f060021;
+        public static final int tv_s2e3=0x7f060022;
+        public static final int tv_s2e4=0x7f060023;
+        public static final int tv_s2e5=0x7f060024;
+        public static final int tv_s2e6=0x7f060025;
+        public static final int tv_s2e7=0x7f060026;
+        public static final int tv_s2e8=0x7f060027;
+        public static final int tv_s2q1=0x7f060012;
+        public static final int tv_s2q2=0x7f060013;
+        public static final int tv_s2q3=0x7f060014;
+        public static final int tv_s3e1=0x7f060028;
+        public static final int tv_s3e2=0x7f060029;
+        public static final int tv_s3e3=0x7f06002a;
+        public static final int tv_s3e4=0x7f06002b;
+        public static final int tv_s3q1=0x7f060015;
+        public static final int tv_s3q2=0x7f060016;
+        public static final int tv_s3q3=0x7f060017;
         /**  Tab content 
          */
-        public static final int welcome=0x7f06001f;
+        public static final int welcome=0x7f06002c;
     }
     public static final class style {
         /** 
@@ -155,21 +206,22 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f070001;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f07000c;
-        public static final int Divider=0x7f07000b;
-        public static final int behindMenuItemLabel=0x7f07000a;
-        public static final int behindMenuItemTitle=0x7f070009;
-        public static final int behindMenuScrollContent=0x7f070008;
-        public static final int leftBehindMenuScroll=0x7f070006;
-        public static final int rightBehindMenuScroll=0x7f070007;
-        public static final int style_bigWhiteText=0x7f070005;
-        public static final int style_emptyBoxRegular=0x7f070004;
-        public static final int style_whiteBoxCapsBold=0x7f070001;
-        public static final int style_whiteBoxCapsRegular=0x7f070003;
-        public static final int style_whiteBoxRegular=0x7f070002;
+        public static final int AppTheme=0x7f07000d;
+        public static final int Divider=0x7f07000c;
+        public static final int Theme_style=0x7f070000;
+        public static final int behindMenuItemLabel=0x7f07000b;
+        public static final int behindMenuItemTitle=0x7f07000a;
+        public static final int behindMenuScrollContent=0x7f070009;
+        public static final int leftBehindMenuScroll=0x7f070007;
+        public static final int rightBehindMenuScroll=0x7f070008;
+        public static final int style_bigWhiteText=0x7f070006;
+        public static final int style_emptyBoxRegular=0x7f070005;
+        public static final int style_whiteBoxCapsBold=0x7f070002;
+        public static final int style_whiteBoxCapsRegular=0x7f070004;
+        public static final int style_whiteBoxRegular=0x7f070003;
     }
 }

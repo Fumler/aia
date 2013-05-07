@@ -3,16 +3,70 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
-	<RelativeLayout
+	<LinearLayout
 	    android:id="@+id/tab2"
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
 	    android:orientation="vertical" >
-	    <TextView 
-	    	style="@style/style_bigWhiteText"
-	    	android:text="@string/alt_title_section2"
-	    	android:layout_width="fill_parent"
-	    	android:layout_height="wrap_content"
-	    	/>
-	</RelativeLayout>
+	<TextView style="@style/style_whiteBoxRegular"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/tab2_welcome"/>
+	<TextView android:text="PREVIEW"
+	    style="@style/style_bigWhiteText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	<ImageView
+	  android:id="@+id/s1_preview"
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/s1_preview" />
+	<TextView android:text="KARL QUOTES"
+	    style="@style/style_bigWhiteText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	<ImageView
+      android:id="@+id/tab2_iv1"
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/iv_s1q1_2" />
+   	<TextView 
+	        android:id="@+id/tab2_tv1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/style_whiteBoxRegular"
+	        android:text="@string/tv_s1q1"
+	        />
+   	<TextView 
+	        android:id="@+id/tab2_tv2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/style_whiteBoxRegular"
+	        android:text="@string/tv_s1q2"
+	        />
+   	
+	<ImageView
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/iv_s1q3" />
+	
+	<TextView 
+	    android:text="@string/tv_s1q3"
+	    style="@style/style_whiteBoxRegular"
+	    />
+	
+	<ImageView
+	  style="@style/style_whiteBoxRegular"
+      android:adjustViewBounds="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/iv_s1q4" />
+	
+	<TextView 
+	    android:text="@string/tv_s1q4"
+	    style="@style/style_whiteBoxRegular"
+	    />
+
+	</LinearLayout>
 </ScrollView>

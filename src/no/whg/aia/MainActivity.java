@@ -5,6 +5,7 @@ import java.util.List;
 
 import android.app.ActionBar;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -17,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.navdrawer.SimpleSideDrawer;
@@ -216,10 +218,42 @@ public class MainActivity extends FragmentActivity {
 			int position = args.getInt(ARG_SECTION_NUMBER);
 			
 			switch(position) {
-			case 0: /* init here */ break;
-			case 1: /* init here */ break;
-			case 2: /* init here */ break;
-			case 3: /* init here */ break;
+			case 0: 
+				/* init tab 1 here */ 
+				break;
+			case 1: 
+				ImageView iv1 = (ImageView) getActivity().findViewById(R.id.s1_preview);
+				iv1.setOnClickListener(new View.OnClickListener() {
+	        		@Override
+	        		public void onClick(View v) {
+	        			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=fAkkpGIreOE"));
+	        			startActivity(intent);
+	        		}
+				});
+				break;
+			case 2: 
+				ImageView iv2 = (ImageView) getActivity().findViewById(R.id.s2_preview);
+				iv2.setOnClickListener(new View.OnClickListener() {
+	        		@Override
+	        		public void onClick(View v) {
+	        			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=A_gKcq9aAh4"));
+	        			startActivity(intent);
+	        		}
+				});
+				break;
+			case 3: 
+				ImageView iv3 = (ImageView) getActivity().findViewById(R.id.s3_preview);
+				iv3.setOnClickListener(new View.OnClickListener() {
+	        		@Override
+	        		public void onClick(View v) {
+	        			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=mNRH_qCBNGk"));
+	        			startActivity(intent);
+	        		}
+				});
+				
+
+				/* init tab 4 here */ 
+				break;
 			default: /* init here */ break;
 			}
 		}
